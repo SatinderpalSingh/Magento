@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Company_Magmi>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>0.0.1</version>
+        </Company_Magmi>
+    </modules>
+</config>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tutsplus_Demo>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Tutsplus_Demo>
+    </modules>
+</config>

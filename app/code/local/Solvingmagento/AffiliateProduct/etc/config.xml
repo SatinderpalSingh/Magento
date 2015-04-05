@@ -1,0 +1,33 @@
+<config>
+    <!-- code omitted for brevity -->
+    <global>
+        <!-- code omitted for brevity -->
+                    <blocks>
+            <solvingmagento_affiliateproduct>
+                <class>Solvingmagento_AffiliateProduct_Block</class>
+            </solvingmagento_affiliateproduct>
+        </blocks>
+        <helpers>
+            <solvingmagento_affiliateproduct>
+                <class>Solvingmagento_AffiliateProduct_Helper</class>
+            </solvingmagento_affiliateproduct>
+        </helpers>
+                    <models>
+            <solvingmagento_affiliateproduct>
+                <class>Solvingmagento_AffiliateProduct_Model</class>
+            </solvingmagento_affiliateproduct>
+        </models>
+	        <!-- code omitted for brevity -->
+	<resources>
+            <solvingmagento_affiliateproduct_setup>
+                <setup>
+                    <module>Solvingmagento_AffiliateProduct</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+            </solvingmagento_affiliateproduct_setup>
+        </resources>
+        <!-- code omitted for brevity -->
+
+    </global>
+    <!-- code omitted for brevity -->
+</config>

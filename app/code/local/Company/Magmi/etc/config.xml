@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Company_Magmi>
+            <version>0.0.1</version>
+        </Company_Magmi>
+    </modules>
+    <global>
+        <models>
+            <company_magmi>
+                <class>Company_Magmi</class>
+            </company_magmi>
+        </models>
+    </global>
+    <crontab>
+        <jobs>
+            <magmi_update>
+                <schedule>
+                    <cron_expr>*/5 * * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>company_magmi/cron::magmiUpdate</model>
+                </run>
+            </magmi_update>
+        </jobs>
+    </crontab>
+</config>
